@@ -1,0 +1,26 @@
+main {
+    padding: 30px;
+}
+
+.status-textarea .g-input {
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    resize: none;
+    height: 100px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 0 30px;
+}
+
+.status-list li {
+    margin: 0 0 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+
+.status-list li p {
+    font-size: 15px;
+    line-height: 20px;
+}
