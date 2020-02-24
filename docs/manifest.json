@@ -2,7 +2,7 @@
     "name": "Status",
     "short_name": "Status ",
     "description": "Status screen",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#75E0FF",
     "theme_color": "#75E0FF",
@@ -21,6 +21,16 @@
             "src": "images/icon-128x128.png",
             "type": "image/png",
             "sizes": "128x128"
+        },
+        {
+            "src": "images/icon-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "images/icon-152x152.png",
+            "type": "image/png",
+            "sizes": "152x152"
         },
         {
             "src": "images/icon-192x192.png",
