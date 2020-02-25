@@ -4,9 +4,6 @@
     "description": "Status screen",
     "start_url": ".",
     "display": "standalone",
-    "related_applications": [{
-        "platform": "web"
-    }],
     "background_color": "#75E0FF",
     "theme_color": "#75E0FF",
     "orientation": "portrait-primary",
