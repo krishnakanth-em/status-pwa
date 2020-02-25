@@ -1,5 +1,8 @@
 main {
     padding: 30px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .status-textarea {
@@ -59,6 +62,10 @@ main {
     width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+video {
+    outline: none;
 }
 
 .send-btn {
