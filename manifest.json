@@ -2,7 +2,7 @@
     "name": "Status App",
     "short_name": "Status App ",
     "description": "Status screen",
-    "start_url": "/status-pwa",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#75E0FF",
     "theme_color": "#75E0FF",
