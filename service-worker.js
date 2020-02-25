@@ -5,7 +5,7 @@ const assets = [
     "/script.js",
     "/style.css",
     "/images/sample.jpg",
-    "/videos/video.mp4"
+    "/images/sample2.jpg"
 ];
 
 // install event

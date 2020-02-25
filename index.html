@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://storage.googleapis.com/front-office/global-styles/v0.1/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <meta name="apple-mobile-web-app-status-bar" content="#75E0FF" />
-    <meta name="theme-color" content="#75E0FF" />
+    <meta name="apple-mobile-web-app-status-bar" content="#000" />
+    <meta name="theme-color" content="#000" />
 
     <script src="script.js"></script>
 </head>
@@ -20,12 +20,12 @@
 <body>
     <main>
         <div class="status-textarea">
-            <textarea class="g-input" placeholder="Update your status here..."></textarea>
+            <textarea class="g-input" id="share-input" placeholder="Update your status here..."></textarea>
             <div class="upload-options">
                 <button class="nostyle"><i class="fa fa-camera"></i></button>
                 <button class="nostyle"><i class="fa fa-map-marker"></i></button>
                 <button class="nostyle"><i class="fa fa-video-camera"></i></button>
-                <button class="send-btn">Share</button>
+                <button class="send-btn" id="share-btn">Share</button>
             </div>
         </div>
         <section class="status-list" id="add-status">
@@ -37,7 +37,7 @@
                 </li>
                 <li>
                     <p>
-                        <b>Lorem Ipsum is simply dummy text of the printing</b>
+                        <b>Lorem Ipsum is simply dummy text of the printing 🖼</b>
                     </p>
                     <figure>
                         <img src="images/sample.jpg" />
@@ -45,18 +45,21 @@
                 </li>
                 <li>
                     <p>
-                        <b>Officia autem, tempora commodi deserunt at eligendi?</b>
+                        <b>Officia autem, tempora commodi deserunt at eligendi? 📈</b>
                     </p>
                     <figure>
-                        <video width="500" height="300" controls="nofullscreen">
-                <source src="videos/video.mp4" type="video/mp4" />
-              </video>
+                        <img src="images/sample2.jpg" />
                     </figure>
                 </li>
                 <li>
                     <p>
                         The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions
                         from the 1914 translation by H. Rackham.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 😁 👌🏻
                     </p>
                 </li>
             </ul>

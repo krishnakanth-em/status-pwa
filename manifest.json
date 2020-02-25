@@ -4,8 +4,8 @@
     "description": "Status screen",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#75E0FF",
-    "theme_color": "#75E0FF",
+    "background_color": "#000",
+    "theme_color": "#000",
     "orientation": "portrait-primary",
     "icons": [{
             "src": "images/icon-72x72.png",
