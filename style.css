@@ -63,6 +63,7 @@ main {
 
 .send-btn {
     padding: 10px 20px;
+    outline: none;
     transition: 0.4s ease;
     border-radius: 4px;
     margin-left: auto;
