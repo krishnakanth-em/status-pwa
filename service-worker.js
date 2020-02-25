@@ -10,7 +10,7 @@ const assets = [
 
 // install event
 self.addEventListener("install", evt => {
-    //console.log('service worker installed');
+    console.log("service worker installed");
     evt.waitUntil(
         caches.open(staticCacheName).then(cache => {
             console.log("caching shell assets");
