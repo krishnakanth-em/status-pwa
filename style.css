@@ -2,15 +2,33 @@ main {
     padding: 30px;
 }
 
+.status-textarea {
+    margin: 0 0 30px;
+    padding: 0 0 20px;
+    border-bottom: 1px dashed #dedede;
+}
+
+.status-textarea .upload-options {
+    display: flex;
+    margin: 10px 0 0;
+}
+
+.status-textarea button i {
+    color: #999;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
 .status-textarea .g-input {
     border: 1px solid #dedede;
     border-radius: 4px;
     resize: none;
     height: 100px;
     width: 100%;
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px;
-    margin: 0 0 30px;
+    margin: 0;
 }
 
 .status-list li {
@@ -21,6 +39,36 @@ main {
 }
 
 .status-list li p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
+}
+
+.status-list li p b {
+    font-weight: 600;
+}
+
+.status-list figure {
+    margin: 10px 0 0;
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.status-list li img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.send-btn {
+    padding: 10px 20px;
+    transition: 0.4s ease;
+    border-radius: 4px;
+    margin-left: auto;
+    display: block;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background: linear-gradient(135deg, rgba(117, 225, 255, 1) 0%, rgba(37, 175, 145, 1) 100%);
 }
