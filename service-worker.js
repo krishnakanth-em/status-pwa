@@ -4,8 +4,8 @@ const assets = [
     "/index.html",
     "/script.js",
     "/style.css",
-    "/images/sample.jpg",
-    "/images/sample2.jpg"
+    "/images/sample.webp",
+    "/images/sample2.webp"
 ];
 
 // install event
